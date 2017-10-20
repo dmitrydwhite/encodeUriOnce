@@ -1,0 +1,28 @@
+{
+  "name": "encodeurionce",
+  "version": "1.0.0",
+  "description": "A utility to ensure that a string is url encoded exactly once.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrydwhite/encodeUriOnce.git"
+  },
+  "keywords": [
+    "encodeURI",
+    "exactly",
+    "once"
+  ],
+  "author": "dmitrydwhite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitrydwhite/encodeUriOnce/issues"
+  },
+  "homepage": "https://github.com/dmitrydwhite/encodeUriOnce#readme"
+}
