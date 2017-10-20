@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/dmitrydwhite/encodeUriOnce/issues"
   },
-  "homepage": "https://github.com/dmitrydwhite/encodeUriOnce#readme"
+  "homepage": "https://github.com/dmitrydwhite/encodeUriOnce#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1"
+  }
 }
